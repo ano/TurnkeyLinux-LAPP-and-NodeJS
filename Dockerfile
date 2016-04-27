@@ -7,7 +7,6 @@ MAINTAINER Ano Tisam "ano.tisam@ffa.int"
 ENV DEBIAN_FRONTEND noninteractive
 
 # Updates Repos
-
 RUN (apt-get update && apt-get -y -q autoclean && apt-get -y -q autoremove)
 
 #Install NodeJs
